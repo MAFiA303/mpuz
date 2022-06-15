@@ -1,5 +1,5 @@
 # mpuz
-<b>Multiplication Puzzle</b>
+<b>Multiplication Puzzle</b><br>
 I used to play this game long time age when i was using <b>emacs</b>.<br>
 here is a python version of the game that you can play in the terminal.<br>
 <br>
