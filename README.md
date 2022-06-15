@@ -1,0 +1,2 @@
+# mpuz
+Multiplication Puzzle
