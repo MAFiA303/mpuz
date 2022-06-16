@@ -3,8 +3,8 @@ import time
 import os
 import re
 
-def color_numbers(text):
-    colored_text = re.sub(r'(\d)', lambda m: f'\033[1;32m{m.group(1)}\033[0m', text)
+def color_numbers(text, color='32'):
+    colored_text = re.sub(r'(\d)', lambda m: f'\033[1;{color}m{m.group(1)}\033[0m', text)
     return colored_text
 
 
@@ -54,7 +54,9 @@ def mpuz():
 
     os.system('cls||clear')
     while True:
-        print(f'You have {c} wrong trials ' + str(trials))
+        print(message)
+        trials_text = f'You have {c} wrong trials ' + str(trials)
+        print(color_numbers(trials_text, '31'))
         print(color_numbers(output))
         if len([x for x in output if x in letters]) == 0:
             print('You won!')
@@ -64,6 +66,7 @@ def mpuz():
             else:
                 print('Bye!')
                 return
+            return
         while True:
             guess = input('Enter your guess: ')
             try:
