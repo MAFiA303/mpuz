@@ -9,4 +9,4 @@ to run it:
 - `python path/to/mpuz.py`
 
 
-![image](https://user-images.githubusercontent.com/3491396/173845679-e1090cf0-f211-4198-b3c3-5110fb442865.png)
+![image](https://user-images.githubusercontent.com/3491396/174012465-2fa96e66-e589-4194-8d8e-70cc27931060.png)
